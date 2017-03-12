@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Company</title>
+	<link rel="stylesheet" href="css/loader.css">
+	<link rel="stylesheet" href="css/libscss.css">
+	<link rel="stylesheet" href="css/stylecompany.css">
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="total-companies col-md-6">
+				<div class="box">
+					<div class="name"><p>Total Companies</p></div>
+						<div class="inside">
+							<div class="loader">
+							<div id="floatingCirclesG">
+									<div class="f_circleG" id="frotateG_01"></div>
+									<div class="f_circleG" id="frotateG_02"></div>
+									<div class="f_circleG" id="frotateG_03"></div>
+									<div class="f_circleG" id="frotateG_04"></div>
+									<div class="f_circleG" id="frotateG_05"></div>
+									<div class="f_circleG" id="frotateG_06"></div>
+									<div class="f_circleG" id="frotateG_07"></div>
+									<div class="f_circleG" id="frotateG_08"></div>
+								</div>
+							</div>
+							<div class="content item1">
+								<div class="pie">456789</div>
+								
+							</div>
+						</div>
+					
+				</div>
+			</div>
+			<div class="list-of-companies col-md-6">
+				<div class="box">
+					<div class="name"><p>List of Companies</p></div>
+					
+						<div class="inside">
+							<div class="loader">
+							<div id="floatingCirclesG">
+									<div class="f_circleG" id="frotateG_01"></div>
+									<div class="f_circleG" id="frotateG_02"></div>
+									<div class="f_circleG" id="frotateG_03"></div>
+									<div class="f_circleG" id="frotateG_04"></div>
+									<div class="f_circleG" id="frotateG_05"></div>
+									<div class="f_circleG" id="frotateG_06"></div>
+									<div class="f_circleG" id="frotateG_07"></div>
+									<div class="f_circleG" id="frotateG_08"></div>
+								</div>
+							</div>
+							<div class="content item2">
+								<table><tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Huawei</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Lenovo</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Samsung</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Nokia</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Fly</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">LG</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Motorola</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Apple</a><br>
+								</td></tr>
+								<tr><td>
+								<a href="javascript:void(0);" onclick="viewdiv('mydiv');">Xiaomi</a><br>
+								</table>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<!--Центральный скрывающийся блок-->
+		<div class="row" id="mydiv" style="display:none;">
+			<div class="company-partners col-md-12">
+				<div class="box-center">
+					<div class="name">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 name1-center"><p>Company partners</p>
+							
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 name2-center controls"><span>Sort by:</span>
+							Name
+								<a href="javascript:void(0)">
+						          <span class="glyphicon glyphicon-triangle-bottom control" data-sort = "filter:asc"></span>
+						        </a>
+						        <a href="javascript:void(0)">
+						          <span class="glyphicon glyphicon-triangle-top  control" data-sort="filter:desc"></span>
+						        </a>
+							Percentage
+								<a href="javascript:void(0)">
+						          <span class="glyphicon glyphicon-triangle-bottom" data-sort = "order: asc"></span>
+						        </a>
+						        <a href="javascript:void(0)">
+						          <span class="glyphicon glyphicon-triangle-top" data-sort="order:desc"></span>
+						        </a>
+
+						        <a href="javascript:void(0);" onclick="viewdiv('mydiv');" class="glyphicon glyphicon-remove"></a>
+						</div>
+					</div>
+					<div class="inside-center">
+						<div id="table-inside">
+							<div class="mix1" data-order="6" data-filter="h">
+								<div class="mix-inside1">13%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Huawei</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="4" data-filter="l">
+								<div class="mix-inside1">8%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Lenovo</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="2" data-filter="s">
+								<div class="mix-inside1">5%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Samsung</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="7" data-filter="n">
+								<div class="mix-inside1">14%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Nokia</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="9" data-filter="f">
+								<div class="mix-inside1">22%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Fly</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="8" data-filter="l">
+								<div class="mix-inside1">18%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>LG</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="3" data-filter="m">
+								<div class="mix-inside1">6%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Motorola</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="1" data-filter="a">
+								<div class="mix-inside1">4%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Apple</p>
+								</div>
+							</div>
+							<div class="mix1" data-order="5" data-filter="x">
+								<div class="mix-inside1">10%</div>
+								<div class="mix-inside">
+									<div class="mid"></div>
+									<p>Xiaomi</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="companies-by-location col-md-6">
+				<div class="box">
+					<div class="name">
+						<div class="col-md-6"><p>Companies by Location</p></div>
+						<div class="col-md-6"><i class="glyphicon glyphicon-arrow-left"></i></div>
+					</div>
+					
+						<div class="inside">
+							<div class="loader">
+								<div id="floatingCirclesG">
+									<div class="f_circleG" id="frotateG_01"></div>
+									<div class="f_circleG" id="frotateG_02"></div>
+									<div class="f_circleG" id="frotateG_03"></div>
+									<div class="f_circleG" id="frotateG_04"></div>
+									<div class="f_circleG" id="frotateG_05"></div>
+									<div class="f_circleG" id="frotateG_06"></div>
+									<div class="f_circleG" id="frotateG_07"></div>
+									<div class="f_circleG" id="frotateG_08"></div>
+								</div>
+							</div>
+							<div class="content item3">
+
+	<!--Блок с диаграммой.-->
+								<div id="containerpie" style="min-width: 310px; height: 250px; max-width: 500px; margin: 0 auto">
+								</div>
+		<!--Блок с таблицами к городам.-->
+								<div class="austria hidetable">
+									<p>Austria:</p>
+									<table>
+										<tr><td>LG</td></tr>
+										<tr><td>Motorola</td></tr>
+										<tr><td>Nokia</td></tr>
+										<tr><td>Apple</td></tr>
+										<tr><td>Samsung</td></tr>
+										<tr><td>Xiaomi</td></tr>
+									</table>
+								</div>
+								<div class="uk hidetable">
+									<p>UK:</p>
+									<table>
+										<tr><td>Motorola</td></tr>
+										<tr><td>LG</td></tr>
+										<tr><td>Apple</td></tr>
+										<tr><td>Nokia</td></tr>
+										<tr><td>Samsung</td></tr>
+										<tr><td>Xiaomi</td></tr>
+									</table>
+								</div>
+								<div class="netherland hidetable">
+									<p>The Netherland:</p>
+									<table>
+										<tr><td>Xiaomi</td></tr>
+										<tr><td>LG</td></tr>
+										<tr><td>Motorola</td></tr>
+										<tr><td>Apple</td></tr>
+										<tr><td>Samsung</td></tr>
+										<tr><td>Nokia</td></tr>
+									</table>
+								</div>
+
+
+							</div>
+						</div>
+					
+				</div>
+			</div>
+			
+			<div class="news col-md-6">
+				<div class="box">
+					<div class="name"><p>News</p></div>
+					<div class="inside">
+						<div class="loader">
+						<div id="floatingCirclesG">
+								<div class="f_circleG" id="frotateG_01"></div>
+								<div class="f_circleG" id="frotateG_02"></div>
+								<div class="f_circleG" id="frotateG_03"></div>
+								<div class="f_circleG" id="frotateG_04"></div>
+								<div class="f_circleG" id="frotateG_05"></div>
+								<div class="f_circleG" id="frotateG_06"></div>
+								<div class="f_circleG" id="frotateG_07"></div>
+								<div class="f_circleG" id="frotateG_08"></div>
+							</div>
+						</div>
+						<div class="content  item4">
+						
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						      <div class="row">
+						      	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							      	<img src="img/Step-2.jpg" alt="Картинка" class="img-responsive">
+							      	<div class="row">
+							      		<div class="date col-lg-12">
+							      			<p><span>Author:</span> Admin</p>
+							      			<p><span>Public:</span> 30.10.2016</p>
+							      		</div>
+							      	</div>
+						      	</div>
+						      	<div class="news-text col-lg-8 col-md-8 col-sm-8 col-xs-8">
+							        <h4><a href="#">Первый слайдер</a></h4>
+							        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos animi totam consequuntur error vel aut repudiandae fuga. Blanditiis dolore, voluptatibus, aut harum sint similique deleniti tempore optio, nihil, repellat unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nam ad, fugit facere accusantium, esse aliquam nisi voluptas cumque voluptates laboriosam incidunt tempora sed laborum qui eum et excepturi molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla numquam voluptate ex, iusto libero vitae commodi ratione facilis magni. Quod doloremque, sint quaerat ullam optio molestias repudiandae obcaecati repellat vero.</p>
+						        </div>
+						      </div>
+						    </div>
+						    <div class="item">
+						      <div class="row">
+						      	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							      	<img src="img/Step-2.jpg" alt="Картинка" class="img-responsive">
+							      	<div class="row">
+							      		<div class="date col-lg-12">
+							      			<p><span>Author:</span> Drozd</p>
+							      			<p><span>Public:</span> 23.09.2016</p>
+							      		</div>
+							      	</div>
+						      	</div>
+						      	<div class="news-text col-lg-8 col-md-8 col-sm-8 col-xs-8">
+							        <h4><a href="#">Второй слайдер</a></h4>
+							        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos animi totam consequuntur error vel aut repudiandae fuga. Blanditiis dolore, voluptatibus, aut harum sint similique deleniti tempore optio, nihil, repellat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam eveniet nemo possimus voluptatum asperiores blanditiis illum aliquid voluptates neque maxime magni ab in, qui at. Obcaecati odio unde, modi veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptatem ipsam, nihil facere. Facilis praesentium placeat, error consequatur soluta labore incidunt cumque voluptatum voluptas, velit pariatur harum maxime et! Ex.</p>
+						         </div>
+						      </div>
+						      
+						    </div>
+						    <div class="item">
+						      <div class="row">
+						      	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							      	<img src="img/Step-2.jpg" alt="Картинка" class="img-responsive">
+							      	<div class="row">
+							      		<div class="date col-lg-12">
+							      			<p><span>Author:</span> Baklan</p>
+							      			<p><span>Public:</span> 14.08.2016</p>
+							      		</div>
+							      	</div>
+						      	</div>
+						      	<div class="news-text col-lg-8 col-md-8 col-sm-8 col-xs-8">
+							        <h4><a href="#">Третий слайдер</a></h4>
+							        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos animi totam consequuntur error vel aut repudiandae fuga. Blanditiis dolore, voluptatibus, aut harum sint similique deleniti tempore optio, nihil, repellat Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, nesciunt voluptate sed quasi illum, cupiditate veritatis alias a quaerat, sequi reprehenderit est eveniet laudantium beatae voluptates. Ipsa repellendus inventore harum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos alias iusto odit, ex labore, et fugiat quia accusantium. Et hic asperiores est quisquam aut dolorem voluptatum error itaque nostrum odit!</p>
+						        </div>
+						      </div>
+						      
+						    </div>
+						   
+						  </div>
+
+						  <!-- Controls -->
+						  <a class="left" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+						  <a class="right" href="#carousel-example-generic" role="button" data-slide="next"></a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--Подключение jquery библиотеки.-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+<script src="js/libs.js"></script>
+<!--Библиотека для построения диаграмм-->
+<script type="text/javascript" src="js/diagrams/highcharts.js"></script>
+<script type="text/javascript" src="js/diagrams/piecharts.js"></script>
+<!--Файл js который включает и настраивает сортировка центрального блока. -->
+<script type="text/javascript" src="js/filters/mixitup.js"></script>
+<script type="text/javascript" src="js/filters/sort.js"></script>
+
+<!--Скринт который скрывает лоадеры через определенное количество времени(delay(в мс)).-->
+<script type="text/javascript">
+	$(window).on('load', function () {
+    var $preloader = $('.loader'),
+        $svg_anm   = $preloader.find('.svg_anm');
+    $svg_anm.fadeOut();
+    $preloader.delay(1500).fadeOut('slow');
+});</script>
+
+
+
+<!--Показывает и скрывает средний блок-->
+<script type="text/javascript"> 
+	function viewdiv(id){
+	var el=document.getElementById(id);
+	if(el.style.display=="block"){
+	el.style.display="none";
+	} else {
+	el.style.display="block";
+	} }
+</script>
+</body>
+</html>

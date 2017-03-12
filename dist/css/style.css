@@ -1,0 +1,110 @@
+@charset "UTF-8";
+body .container {
+  height: auto;
+  padding: 0;
+}
+body .container .col-xs-12 {
+  padding: 10px;
+}
+
+.head h5 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.head {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #E6E6E6;
+  background-color: #EEEEEE;
+}
+
+#contact {
+  border: 2px solid #E6E6E6;
+  border-radius: 5px;
+  margin: 100px auto 20px;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+#contact fieldset {
+  position: relative;
+}
+
+#contact fieldset input {
+  margin: 5px 20px;
+  padding: 3px 35px;
+  width: 90%;
+  border: 2px solid #E6E6E6;
+  border-radius: 5px;
+  height: 30px;
+}
+
+#contact span {
+  font-size: 12px;
+}
+
+#contact input[type="checkbox"] {
+  margin: 5px 5px 20px 20px;
+}
+
+#contact select {
+  border: 2px solid #E6E6E6;
+  border-radius: 5px;
+  margin: 5px 20px;
+  width: 90%;
+  color: #919191;
+  padding: 3px 10px;
+  background: url(../img/triangle.png) no-repeat 96% 7px;
+}
+
+#contact select option {
+  padding: 3px 0 0 15px;
+}
+
+#contact button {
+  border: 2px solid #E6E6E6;
+  border-radius: 5px;
+  line-height: 2em;
+  width: 100px;
+}
+
+.send {
+  text-align: right;
+  padding: 0 20px 20px 20px;
+}
+
+.pictures {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #E6E6E6;
+  border-radius: 5px 0 0 5px;
+  background-color: #EEEEEE;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.e-mail {
+  background: #EEEEEE url(../img/e-mail.png) no-repeat 2px 0;
+}
+
+.persona {
+  background: #EEEEEE url(../img/persona.png) no-repeat 4px 2px;
+}
+
+.password {
+  background: #EEEEEE url(../img/asterisk.png) no-repeat 6px 6px;
+}
+
+.expand {
+  /*Чтобы убрать стандартную стрелочку у SELECT*/
+  -webkit-appearance: none;
+  /*Для Хрома и Сафари*/
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  text-overflow: "";
+}

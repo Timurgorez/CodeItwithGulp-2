@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>TestCompany</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/libscss.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+<!--<a href="company.html"style="font-size: 8px; color: grey;">На главную</a>-->
+	<div class="col-xs-12">
+	<form id="contact" action="form1.php" method="POST">
+		<div class="head">
+	    	<h5>Sing Up</h5>
+	    </div>
+	    <fieldset>
+	      <input class="field" placeholder="Name" name="name" type="text" tabindex="1" required="true" required autofocus>
+	      <div class="persona pictures"></div>
+	    </fieldset>
+	    <fieldset>
+	      <input class="field" placeholder="Secondname" name="secondname" type="text" tabindex="2" required="true" required>
+			<div class="persona pictures"></div>
+	    </fieldset>
+	    <fieldset>
+	      <input class="field" placeholder="Email" name="email" type="email" tabindex="3" required="true" required>
+	      <div class="e-mail pictures"></div>
+	    </fieldset>
+	    <select name="select" class="expand">
+	      <option value="" selected>Male</option>
+	      <option value="">Female</option>
+	    </select>
+	    <fieldset>
+	      <input class="field" placeholder="Password" name="password" type="password" tabindex="5" required="true" required>
+	      <div class="password pictures"></div>
+	    </fieldset>
+	    
+	    <input class="fieldbox" type="checkbox" required="true" required/>  <span> Conditions of Agreement</span>
+		
+	    <fieldset class="send">
+	      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+	    </fieldset>
+	</form>
+</div>
+</div>
+
+<script src="js/libs.js" type="text/javascript"></script>
+
+</body>
+</html>
